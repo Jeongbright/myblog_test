@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "hello-world",
+    "title": "블로그를 시작하며",
+    "date": "2026-09-21",
+    "summary": "마크다운으로 글을 쓰고 바로 웹사이트에 반영되는 블로그를 만들었습니다.",
+    "file": "2026-09-21-hello-world.md"
+  },
+  {
+    "slug": "today-i-learned",
+    "title": "오늘 배운 것",
+    "date": "2026-09-21",
+    "summary": "클로드 코드로 블로그를 만들면서 정리한 HTML, CSS, JavaScript의 역할.",
+    "file": "2026-09-21-today-i-learned.md"
+  }
+]
