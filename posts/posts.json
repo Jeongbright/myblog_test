@@ -12,5 +12,12 @@
     "date": "2026-09-21",
     "summary": "클로드 코드로 블로그를 만들면서 정리한 HTML, CSS, JavaScript의 역할.",
     "file": "2026-09-21-today-i-learned.md"
+  },
+  {
+    "slug": "prefers-reduced-motion",
+    "title": "prefers-reduced-motion으로 애니메이션 접근성 챙기기",
+    "date": "2026-09-22",
+    "summary": "CSS와 JS에서 prefers-reduced-motion을 감지해 모션에 민감한 사용자를 배려하는 방법.",
+    "file": "2026-09-22-prefers-reduced-motion.md"
   }
 ]
