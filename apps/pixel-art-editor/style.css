@@ -1,0 +1,216 @@
+/* 픽셀 아트 에디터 — 독립 스타일시트 (블로그 css/style.css에 의존하지 않음) */
+
+:root {
+  --editor-bg: #f5f5f5;
+  --editor-text: #1a1a1a;
+  --editor-muted: #6b6b6b;
+  --editor-panel-bg: #ffffff;
+  --editor-border: #d8d8d8;
+  --editor-accent: #1c6fd6;
+  --editor-accent-text: #ffffff;
+  --editor-btn-secondary-bg: #e8e8e8;
+  --editor-btn-secondary-text: #1a1a1a;
+  --checker-light: #e8e8e8;
+  --checker-dark: #c8c8c8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --editor-bg: #1e1f22;
+    --editor-text: #f0f0f0;
+    --editor-muted: #a0a0a0;
+    --editor-panel-bg: #2a2b2e;
+    --editor-border: #45464a;
+    --editor-accent: #3f8bef;
+    --editor-accent-text: #ffffff;
+    --editor-btn-secondary-bg: #3a3b3e;
+    --editor-btn-secondary-text: #f0f0f0;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1.5rem 0;
+  background: var(--editor-bg);
+  color: var(--editor-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+    "Malgun Gothic", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.pixel-editor {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.editor-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.editor-title {
+  font-size: 1.5rem;
+  margin: 0 0 0.4rem;
+}
+
+.editor-hint {
+  margin: 0;
+  color: var(--editor-muted);
+  font-size: 0.9rem;
+}
+
+.editor-main {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.canvas-wrap {
+  width: min(90vw, 480px);
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.pixel-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: none;
+  image-rendering: pixelated;
+  background: var(--editor-panel-bg);
+}
+
+.editor-controls {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  min-width: 0;
+}
+
+.tool-group,
+.action-group {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.tool-btn,
+.btn-secondary,
+.btn-primary {
+  flex: 1;
+  min-height: 44px;
+  border: 1px solid var(--editor-border);
+  border-radius: 6px;
+  background: var(--editor-panel-bg);
+  color: var(--editor-text);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+.tool-btn.active {
+  background: var(--editor-accent);
+  color: var(--editor-accent-text);
+  border-color: var(--editor-accent);
+}
+
+.btn-secondary {
+  background: var(--editor-btn-secondary-bg);
+  color: var(--editor-btn-secondary-text);
+}
+
+.btn-primary {
+  background: var(--editor-accent);
+  color: var(--editor-accent-text);
+  border-color: var(--editor-accent);
+  font-weight: 600;
+}
+
+.palette-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.palette-swatches {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.4rem;
+}
+
+.swatch {
+  aspect-ratio: 1 / 1;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 0;
+  cursor: pointer;
+  min-height: 32px;
+}
+
+.swatch.active {
+  outline: 2px solid var(--editor-accent);
+  outline-offset: 1px;
+  transform: scale(1.1);
+}
+
+.custom-color-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+  color: var(--editor-muted);
+}
+
+.custom-color-label input[type="color"] {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid var(--editor-border);
+  border-radius: 6px;
+  background: none;
+  cursor: pointer;
+}
+
+.editor-footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.editor-footer a {
+  color: var(--editor-muted);
+  text-decoration: none;
+}
+
+.editor-footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .editor-main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .canvas-wrap {
+    width: min(90vw, 480px);
+  }
+
+  .editor-controls {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .palette-swatches {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

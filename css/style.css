@@ -156,6 +156,16 @@ main {
   transform-origin: top left;
 }
 
+.app-preview--pixel {
+  background: #f4f4f5;
+}
+
+.app-preview--pixel iframe {
+  width: 640px;
+  height: 480px;
+  transform: scale(0.4);
+}
+
 .app-card-body {
   padding: 0.9rem 1rem 1.1rem;
 }
