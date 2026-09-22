@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>2048</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-2048">
+    <header class="game-header">
+      <h1 class="game-title">2048</h1>
+      <div class="score-panel">
+        <div class="score-box">
+          <span class="score-label">SCORE</span>
+          <span class="score-value" id="score">0</span>
+        </div>
+        <div class="score-box">
+          <span class="score-label">BEST</span>
+          <span class="score-value" id="best-score">0</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="game-toolbar">
+      <p class="game-hint">방향키 또는 스와이프로 타일을 이동하세요. 같은 숫자가 만나면 합쳐집니다.</p>
+      <button id="new-game-btn" class="btn-new-game">새 게임</button>
+    </div>
+
+    <div class="board-wrap">
+      <div class="grid-background" id="grid-background">
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+        <div class="grid-cell"></div>
+      </div>
+      <div class="tile-container" id="tile-container"></div>
+
+      <div class="overlay" id="overlay" hidden>
+        <p class="overlay-message" id="overlay-message"></p>
+        <div class="overlay-actions" id="overlay-actions"></div>
+      </div>
+    </div>
+
+    <footer class="game-footer">
+      <a href="../../index.html">← 블로그로 돌아가기</a>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

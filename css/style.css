@@ -97,6 +97,81 @@ main {
   padding: 0 1.25rem 4rem;
 }
 
+/* 미니 웹앱 카드 */
+.apps-section {
+  margin-top: 1rem;
+}
+
+.section-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+}
+
+.app-list {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.app-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--bg-elevated);
+}
+
+.app-card-link {
+  display: block;
+  color: var(--text);
+}
+
+.app-card-link:hover {
+  text-decoration: none;
+}
+
+.app-card-link:hover .app-card-title {
+  color: var(--accent);
+}
+
+.app-preview {
+  position: relative;
+  height: 140px;
+  overflow: hidden;
+  background: #bbada0;
+  pointer-events: none;
+}
+
+.app-preview iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 700px;
+  border: 0;
+  transform: scale(0.32);
+  transform-origin: top left;
+}
+
+.app-card-body {
+  padding: 0.9rem 1rem 1.1rem;
+}
+
+.app-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.35rem;
+}
+
+.app-card-desc {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
 /* 글 목록 */
 .post-list {
   list-style: none;
