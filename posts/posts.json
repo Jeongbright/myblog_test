@@ -26,5 +26,12 @@
     "date": "2026-09-23",
     "summary": "네이티브 loading=\"lazy\" 속성과 IntersectionObserver로 이미지 로딩 성능을 개선하는 두 가지 방법을 비교합니다.",
     "file": "2026-09-23-image-lazy-loading.md"
+  },
+  {
+    "slug": "fetch-abort-controller",
+    "title": "AbortController로 fetch 요청 취소하기",
+    "date": "2026-09-24",
+    "summary": "AbortController와 signal을 이용해 이전 fetch 요청을 취소하고, 자동완성 같은 기능에서 응답 순서가 꼬이는 문제를 막는 방법입니다.",
+    "file": "2026-09-24-fetch-abort-controller.md"
   }
 ]
