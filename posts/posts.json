@@ -33,5 +33,12 @@
     "date": "2026-09-24",
     "summary": "AbortController와 signal을 이용해 이전 fetch 요청을 취소하고, 자동완성 같은 기능에서 응답 순서가 꼬이는 문제를 막는 방법입니다.",
     "file": "2026-09-24-fetch-abort-controller.md"
+  },
+  {
+    "slug": "dialog-element-modal",
+    "title": "<dialog> 엘리먼트로 모달 쉽게 만들기",
+    "date": "2026-09-25",
+    "summary": "네이티브 <dialog> 엘리먼트와 showModal()로 포커스 트랩, Esc 닫기, 배경 스타일링을 직접 구현하지 않고 모달을 만드는 방법입니다.",
+    "file": "2026-09-25-dialog-element-modal.md"
   }
 ]
