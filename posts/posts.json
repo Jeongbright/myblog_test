@@ -40,5 +40,12 @@
     "date": "2026-09-25",
     "summary": "네이티브 <dialog> 엘리먼트와 showModal()로 포커스 트랩, Esc 닫기, 배경 스타일링을 직접 구현하지 않고 모달을 만드는 방법입니다.",
     "file": "2026-09-25-dialog-element-modal.md"
+  },
+  {
+    "slug": "css-clamp-fluid-typography",
+    "title": "clamp()로 미디어 쿼리 없이 반응형 타이포그래피 만들기",
+    "date": "2026-09-26",
+    "summary": "CSS clamp()의 최소·선호·최대값 문법으로 화면 크기에 따라 부드럽게 늘어나는 폰트 크기와 여백을 미디어 쿼리 없이 만드는 방법입니다.",
+    "file": "2026-09-26-css-clamp-fluid-typography.md"
   }
 ]
