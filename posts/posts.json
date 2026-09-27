@@ -47,5 +47,12 @@
     "date": "2026-09-26",
     "summary": "CSS clamp()의 최소·선호·최대값 문법으로 화면 크기에 따라 부드럽게 늘어나는 폰트 크기와 여백을 미디어 쿼리 없이 만드는 방법입니다.",
     "file": "2026-09-26-css-clamp-fluid-typography.md"
+  },
+  {
+    "slug": "css-has-selector",
+    "title": "CSS :has() 선택자로 부모 스타일을 자식 상태에 따라 바꾸기",
+    "date": "2026-09-27",
+    "summary": "관계 선택자 :has()로 자식 요소의 존재나 상태에 따라 부모나 형제를 스타일링하는 방법과 폼 유효성 검사 활용 예시입니다.",
+    "file": "2026-09-27-css-has-selector.md"
   }
 ]
