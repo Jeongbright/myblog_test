@@ -54,5 +54,12 @@
     "date": "2026-09-27",
     "summary": "관계 선택자 :has()로 자식 요소의 존재나 상태에 따라 부모나 형제를 스타일링하는 방법과 폼 유효성 검사 활용 예시입니다.",
     "file": "2026-09-27-css-has-selector.md"
+  },
+  {
+    "slug": "resize-observer-responsive-components",
+    "title": "ResizeObserver로 요소 크기 변화에 반응하기",
+    "date": "2026-09-28",
+    "summary": "뷰포트가 아니라 특정 요소의 크기 변화를 감지해야 할 때 ResizeObserver를 사용하는 방법과 정리(cleanup), 주의할 점을 정리합니다.",
+    "file": "2026-09-28-resize-observer-responsive-components.md"
   }
 ]
