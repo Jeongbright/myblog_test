@@ -61,5 +61,12 @@
     "date": "2026-09-28",
     "summary": "뷰포트가 아니라 특정 요소의 크기 변화를 감지해야 할 때 ResizeObserver를 사용하는 방법과 정리(cleanup), 주의할 점을 정리합니다.",
     "file": "2026-09-28-resize-observer-responsive-components.md"
+  },
+  {
+    "slug": "css-content-visibility-auto",
+    "title": "content-visibility: auto로 렌더링 성능 최적화하기",
+    "date": "2026-09-29",
+    "summary": "화면 밖 콘텐츠의 렌더링을 건너뛰는 content-visibility: auto와 contain-intrinsic-size를 함께 사용해 긴 목록 페이지의 초기 렌더링 성능을 개선하는 방법입니다.",
+    "file": "2026-09-29-css-content-visibility-auto.md"
   }
 ]
