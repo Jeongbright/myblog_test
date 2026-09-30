@@ -68,5 +68,12 @@
     "date": "2026-09-29",
     "summary": "화면 밖 콘텐츠의 렌더링을 건너뛰는 content-visibility: auto와 contain-intrinsic-size를 함께 사용해 긴 목록 페이지의 초기 렌더링 성능을 개선하는 방법입니다.",
     "file": "2026-09-29-css-content-visibility-auto.md"
+  },
+  {
+    "slug": "css-container-queries",
+    "title": "CSS 컨테이너 쿼리(@container)로 부모 크기에 반응하는 컴포넌트 만들기",
+    "date": "2026-09-30",
+    "summary": "뷰포트가 아니라 컴포넌트를 담고 있는 부모 요소의 크기를 기준으로 스타일을 바꾸는 @container 쿼리의 기본 사용법과 주의할 점입니다.",
+    "file": "2026-09-30-css-container-queries.md"
   }
 ]
