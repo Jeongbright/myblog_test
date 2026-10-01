@@ -75,5 +75,12 @@
     "date": "2026-09-30",
     "summary": "뷰포트가 아니라 컴포넌트를 담고 있는 부모 요소의 크기를 기준으로 스타일을 바꾸는 @container 쿼리의 기본 사용법과 주의할 점입니다.",
     "file": "2026-09-30-css-container-queries.md"
+  },
+  {
+    "slug": "css-focus-visible",
+    "title": ":focus-visible로 키보드 사용자만을 위한 포커스 스타일 만들기",
+    "date": "2026-10-01",
+    "summary": "마우스 클릭과 키보드 탐색을 구분해서, 키보드로 포커스했을 때만 아웃라인을 보여주는 :focus-visible 사용법과 :focus를 완전히 지우면 안 되는 이유를 정리합니다.",
+    "file": "2026-10-01-css-focus-visible.md"
   }
 ]
