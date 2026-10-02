@@ -82,5 +82,12 @@
     "date": "2026-10-01",
     "summary": "마우스 클릭과 키보드 탐색을 구분해서, 키보드로 포커스했을 때만 아웃라인을 보여주는 :focus-visible 사용법과 :focus를 완전히 지우면 안 되는 이유를 정리합니다.",
     "file": "2026-10-01-css-focus-visible.md"
+  },
+  {
+    "slug": "clipboard-api-copy-button",
+    "title": "Clipboard API로 복사하기 버튼 만들기",
+    "date": "2026-10-02",
+    "summary": "navigator.clipboard.writeText()로 복사 버튼을 구현하는 방법과, 사용자 제스처 안에서 호출해야 하는 이유를 정리합니다.",
+    "file": "2026-10-02-clipboard-api-copy-button.md"
   }
 ]
