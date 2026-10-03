@@ -89,5 +89,12 @@
     "date": "2026-10-02",
     "summary": "navigator.clipboard.writeText()로 복사 버튼을 구현하는 방법과, 사용자 제스처 안에서 호출해야 하는 이유를 정리합니다.",
     "file": "2026-10-02-clipboard-api-copy-button.md"
+  },
+  {
+    "slug": "debounce-function",
+    "title": "디바운스(debounce) 함수로 입력 이벤트 최적화하기",
+    "date": "2026-10-03",
+    "summary": "연속 입력마다 실행되는 핸들러를 debounce로 감싸 입력이 멈춘 뒤에만 실행되게 만들고, 쓰로틀과의 차이를 정리합니다.",
+    "file": "2026-10-03-debounce-function.md"
   }
 ]
