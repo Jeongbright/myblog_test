@@ -96,5 +96,12 @@
     "date": "2026-10-03",
     "summary": "연속 입력마다 실행되는 핸들러를 debounce로 감싸 입력이 멈춘 뒤에만 실행되게 만들고, 쓰로틀과의 차이를 정리합니다.",
     "file": "2026-10-03-debounce-function.md"
+  },
+  {
+    "slug": "page-visibility-api",
+    "title": "Page Visibility API로 백그라운드 탭에서 작업 멈추기",
+    "date": "2026-10-04",
+    "summary": "document.hidden과 visibilitychange 이벤트로 탭이 숨겨졌는지 감지해 폴링이나 애니메이션을 멈추고, blur/focus와 어떻게 다른지 정리합니다.",
+    "file": "2026-10-04-page-visibility-api.md"
   }
 ]
