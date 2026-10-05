@@ -103,5 +103,12 @@
     "date": "2026-10-04",
     "summary": "document.hidden과 visibilitychange 이벤트로 탭이 숨겨졌는지 감지해 폴링이나 애니메이션을 멈추고, blur/focus와 어떻게 다른지 정리합니다.",
     "file": "2026-10-04-page-visibility-api.md"
+  },
+  {
+    "slug": "css-aspect-ratio",
+    "title": "CSS aspect-ratio로 비율 고정 박스 만들기",
+    "date": "2026-10-05",
+    "summary": "padding-top 트릭 없이 CSS aspect-ratio 속성으로 이미지·비디오 비율을 고정해 레이아웃 이동(CLS)을 막는 방법입니다.",
+    "file": "2026-10-05-css-aspect-ratio.md"
   }
 ]
