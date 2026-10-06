@@ -110,5 +110,12 @@
     "date": "2026-10-05",
     "summary": "padding-top 트릭 없이 CSS aspect-ratio 속성으로 이미지·비디오 비율을 고정해 레이아웃 이동(CLS)을 막는 방법입니다.",
     "file": "2026-10-05-css-aspect-ratio.md"
+  },
+  {
+    "slug": "prefers-color-scheme-dark-mode",
+    "title": "prefers-color-scheme로 다크 모드 대응하기",
+    "date": "2026-10-06",
+    "summary": "CSS prefers-color-scheme 미디어 쿼리로 OS 설정에 따라 자동으로 다크 모드를 적용하고, data-theme 속성과 localStorage로 수동 토글도 함께 지원하는 방법입니다.",
+    "file": "2026-10-06-prefers-color-scheme-dark-mode.md"
   }
 ]
