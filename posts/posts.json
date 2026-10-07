@@ -117,5 +117,12 @@
     "date": "2026-10-06",
     "summary": "CSS prefers-color-scheme 미디어 쿼리로 OS 설정에 따라 자동으로 다크 모드를 적용하고, data-theme 속성과 localStorage로 수동 토글도 함께 지원하는 방법입니다.",
     "file": "2026-10-06-prefers-color-scheme-dark-mode.md"
+  },
+  {
+    "slug": "structured-clone",
+    "title": "structuredClone()으로 객체 깊은 복사하기",
+    "date": "2026-10-07",
+    "summary": "JSON.stringify/parse 편법 없이 브라우저 내장 structuredClone()으로 Date, Map, Set까지 손실 없이 깊은 복사하는 방법과 복제할 수 없는 값들을 정리합니다.",
+    "file": "2026-10-07-structured-clone.md"
   }
 ]
