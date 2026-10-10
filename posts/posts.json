@@ -138,5 +138,12 @@
     "date": "2026-10-09",
     "summary": "브라우저 내장 Intl.NumberFormat으로 천 단위 콤마, 통화, 퍼센트, 단위 축약 표기까지 라이브러리 없이 처리하는 방법입니다.",
     "file": "2026-10-09-intl-numberformat.md"
+  },
+  {
+    "slug": "throttle-function",
+    "title": "스로틀(throttle) 함수로 스크롤 이벤트 최적화하기",
+    "date": "2026-10-10",
+    "summary": "scroll, resize처럼 짧은 시간에 반복 발생하는 이벤트를 일정 간격으로만 실행되게 제한하는 스로틀 함수를 만들고, 디바운스와의 차이를 정리합니다.",
+    "file": "2026-10-10-throttle-function.md"
   }
 ]
