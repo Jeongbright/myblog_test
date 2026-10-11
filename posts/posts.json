@@ -145,5 +145,12 @@
     "date": "2026-10-10",
     "summary": "scroll, resize처럼 짧은 시간에 반복 발생하는 이벤트를 일정 간격으로만 실행되게 제한하는 스로틀 함수를 만들고, 디바운스와의 차이를 정리합니다.",
     "file": "2026-10-10-throttle-function.md"
+  },
+  {
+    "slug": "html-popover-attribute",
+    "title": "popover 속성으로 JS 없이 팝오버 만들기",
+    "date": "2026-10-11",
+    "summary": "HTML popover 속성과 popovertarget으로 드롭다운/팝오버 UI를 별도 JS 없이 열고 닫는 방법을 정리합니다.",
+    "file": "2026-10-11-html-popover-attribute.md"
   }
 ]
