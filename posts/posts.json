@@ -152,5 +152,12 @@
     "date": "2026-10-11",
     "summary": "HTML popover 속성과 popovertarget으로 드롭다운/팝오버 UI를 별도 JS 없이 열고 닫는 방법을 정리합니다.",
     "file": "2026-10-11-html-popover-attribute.md"
+  },
+  {
+    "slug": "css-text-wrap-balance",
+    "title": "CSS text-wrap: balance로 제목 줄바꿈 깔끔하게 만들기",
+    "date": "2026-10-12",
+    "summary": "text-wrap: balance로 짧은 제목의 줄 길이를 자동으로 균형 있게 맞추고, 긴 본문에는 text-wrap: pretty를 쓰는 이유를 정리합니다.",
+    "file": "2026-10-12-css-text-wrap-balance.md"
   }
 ]
