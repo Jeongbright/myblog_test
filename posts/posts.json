@@ -159,5 +159,12 @@
     "date": "2026-10-12",
     "summary": "text-wrap: balance로 짧은 제목의 줄 길이를 자동으로 균형 있게 맞추고, 긴 본문에는 text-wrap: pretty를 쓰는 이유를 정리합니다.",
     "file": "2026-10-12-css-text-wrap-balance.md"
+  },
+  {
+    "slug": "web-share-api",
+    "title": "Web Share API로 모바일 네이티브 공유 시트 띄우기",
+    "date": "2026-10-13",
+    "summary": "navigator.share()로 OS 네이티브 공유 시트를 띄우고, 미지원 브라우저에서는 클립보드 복사로 폴백하는 방법입니다.",
+    "file": "2026-10-13-web-share-api.md"
   }
 ]
