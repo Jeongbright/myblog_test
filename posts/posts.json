@@ -166,5 +166,12 @@
     "date": "2026-10-13",
     "summary": "navigator.share()로 OS 네이티브 공유 시트를 띄우고, 미지원 브라우저에서는 클립보드 복사로 폴백하는 방법입니다.",
     "file": "2026-10-13-web-share-api.md"
+  },
+  {
+    "slug": "details-summary-accordion",
+    "title": "details/summary로 아코디언 UI 만들기",
+    "date": "2026-10-14",
+    "summary": "네이티브 details/summary 엘리먼트로 JS 없이 접근성 좋은 아코디언을 만들고, name 속성으로 하나만 열리게 제어하는 방법입니다.",
+    "file": "2026-10-14-details-summary-accordion.md"
   }
 ]
