@@ -173,5 +173,12 @@
     "date": "2026-10-14",
     "summary": "네이티브 details/summary 엘리먼트로 JS 없이 접근성 좋은 아코디언을 만들고, name 속성으로 하나만 열리게 제어하는 방법입니다.",
     "file": "2026-10-14-details-summary-accordion.md"
+  },
+  {
+    "slug": "custom-event-component-communication",
+    "title": "CustomEvent로 컴포넌트 간 통신하기",
+    "date": "2026-10-15",
+    "summary": "전역 변수나 직접 함수 호출 없이 CustomEvent와 dispatchEvent/addEventListener로 컴포넌트 간에 느슨하게 결합된 데이터 전달 구조를 만드는 방법입니다.",
+    "file": "2026-10-15-custom-event-component-communication.md"
   }
 ]
