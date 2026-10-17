@@ -187,5 +187,12 @@
     "date": "2026-10-16",
     "summary": "브라우저 내장 Intl.RelativeTimeFormat으로 날짜 차이를 직접 계산하지 않고 로케일에 맞는 상대 시간 문자열을 만드는 방법입니다.",
     "file": "2026-10-16-intl-relativetimeformat.md"
+  },
+  {
+    "slug": "url-search-params",
+    "title": "URLSearchParams로 쿼리 스트링 쉽게 다루기",
+    "date": "2026-10-17",
+    "summary": "브라우저 내장 URLSearchParams와 URL 객체로 쿼리 파라미터를 직접 문자열 처리하지 않고 안전하게 읽고 쓰는 방법입니다.",
+    "file": "2026-10-17-url-search-params.md"
   }
 ]
