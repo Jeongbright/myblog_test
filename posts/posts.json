@@ -194,5 +194,12 @@
     "date": "2026-10-17",
     "summary": "브라우저 내장 URLSearchParams와 URL 객체로 쿼리 파라미터를 직접 문자열 처리하지 않고 안전하게 읽고 쓰는 방법입니다.",
     "file": "2026-10-17-url-search-params.md"
+  },
+  {
+    "slug": "mutation-observer",
+    "title": "MutationObserver로 DOM 변경 감지하기",
+    "date": "2026-10-18",
+    "summary": "setInterval 폴링 없이 MutationObserver로 자식 노드 추가/삭제와 속성 변경을 감지하고, 관찰 범위를 좁히고 disconnect()로 정리하는 방법을 정리합니다.",
+    "file": "2026-10-18-mutation-observer.md"
   }
 ]
