@@ -201,5 +201,12 @@
     "date": "2026-10-18",
     "summary": "setInterval 폴링 없이 MutationObserver로 자식 노드 추가/삭제와 속성 변경을 감지하고, 관찰 범위를 좁히고 disconnect()로 정리하는 방법을 정리합니다.",
     "file": "2026-10-18-mutation-observer.md"
+  },
+  {
+    "slug": "view-transitions-api",
+    "title": "View Transitions API로 상태 변경에 부드러운 전환 애니메이션 주기",
+    "date": "2026-10-19",
+    "summary": "document.startViewTransition()으로 DOM 변경 전후를 자동으로 크로스페이드시키고, view-transition-name으로 특정 요소를 모핑시키는 방법과 미지원 브라우저 폴백을 정리합니다.",
+    "file": "2026-10-19-view-transitions-api.md"
   }
 ]
