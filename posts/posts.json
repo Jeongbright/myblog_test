@@ -208,5 +208,12 @@
     "date": "2026-10-19",
     "summary": "document.startViewTransition()으로 DOM 변경 전후를 자동으로 크로스페이드시키고, view-transition-name으로 특정 요소를 모핑시키는 방법과 미지원 브라우저 폴백을 정리합니다.",
     "file": "2026-10-19-view-transitions-api.md"
+  },
+  {
+    "slug": "web-animations-api",
+    "title": "Web Animations API로 자바스크립트에서 애니메이션 직접 제어하기",
+    "date": "2026-10-20",
+    "summary": "element.animate()로 라이브러리 없이 애니메이션을 재생하고, pause/play/reverse와 finished 프로미스로 진행 상태를 제어하는 방법입니다.",
+    "file": "2026-10-20-web-animations-api.md"
   }
 ]
