@@ -215,5 +215,12 @@
     "date": "2026-10-20",
     "summary": "element.animate()로 라이브러리 없이 애니메이션을 재생하고, pause/play/reverse와 finished 프로미스로 진행 상태를 제어하는 방법입니다.",
     "file": "2026-10-20-web-animations-api.md"
+  },
+  {
+    "slug": "request-idle-callback",
+    "title": "requestIdleCallback으로 급하지 않은 작업 미루기",
+    "date": "2026-10-21",
+    "summary": "메인 스레드가 바쁠 때 렌더링을 방해하지 않도록 requestIdleCallback으로 우선순위 낮은 작업을 유휴 시간에만 나눠 처리하는 방법과 Safari 폴백을 정리합니다.",
+    "file": "2026-10-21-request-idle-callback.md"
   }
 ]
