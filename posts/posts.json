@@ -222,5 +222,12 @@
     "date": "2026-10-21",
     "summary": "메인 스레드가 바쁠 때 렌더링을 방해하지 않도록 requestIdleCallback으로 우선순위 낮은 작업을 유휴 시간에만 나눠 처리하는 방법과 Safari 폴백을 정리합니다.",
     "file": "2026-10-21-request-idle-callback.md"
+  },
+  {
+    "slug": "broadcast-channel-api",
+    "title": "BroadcastChannel API로 같은 출처의 탭/창 간 메시지 주고받기",
+    "date": "2026-10-22",
+    "summary": "BroadcastChannel로 같은 출처에서 열린 여러 탭에 메시지를 바로 전달해 로그인 상태 같은 공유 상태를 동기화하는 방법입니다.",
+    "file": "2026-10-22-broadcast-channel-api.md"
   }
 ]
