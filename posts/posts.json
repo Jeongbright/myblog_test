@@ -229,5 +229,12 @@
     "date": "2026-10-22",
     "summary": "BroadcastChannel로 같은 출처에서 열린 여러 탭에 메시지를 바로 전달해 로그인 상태 같은 공유 상태를 동기화하는 방법입니다.",
     "file": "2026-10-22-broadcast-channel-api.md"
+  },
+  {
+    "slug": "navigator-send-beacon",
+    "title": "navigator.sendBeacon으로 페이지를 떠날 때도 데이터 안전하게 보내기",
+    "date": "2026-10-23",
+    "summary": "unload 시점에 fetch로 보낸 분석 로그가 유실되는 문제를, navigator.sendBeacon()으로 브라우저가 백그라운드에서 전송을 이어가게 해 해결하는 방법입니다.",
+    "file": "2026-10-23-navigator-send-beacon.md"
   }
 ]
