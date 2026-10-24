@@ -236,5 +236,12 @@
     "date": "2026-10-23",
     "summary": "unload 시점에 fetch로 보낸 분석 로그가 유실되는 문제를, navigator.sendBeacon()으로 브라우저가 백그라운드에서 전송을 이어가게 해 해결하는 방법입니다.",
     "file": "2026-10-23-navigator-send-beacon.md"
+  },
+  {
+    "slug": "css-scroll-snap",
+    "title": "CSS scroll-snap으로 JS 없이 스와이프 캐러셀 만들기",
+    "date": "2026-10-24",
+    "summary": "scroll-snap-type과 scroll-snap-align만으로 라이브러리나 터치 이벤트 처리 없이 네이티브 스냅 캐러셀을 만드는 방법입니다.",
+    "file": "2026-10-24-css-scroll-snap.md"
   }
 ]
