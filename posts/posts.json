@@ -243,5 +243,12 @@
     "date": "2026-10-24",
     "summary": "scroll-snap-type과 scroll-snap-align만으로 라이브러리나 터치 이벤트 처리 없이 네이티브 스냅 캐러셀을 만드는 방법입니다.",
     "file": "2026-10-24-css-scroll-snap.md"
+  },
+  {
+    "slug": "css-is-where-selectors",
+    "title": "CSS :is()와 :where()로 선택자 중복 줄이고 명시도 관리하기",
+    "date": "2026-10-25",
+    "summary": "반복되는 선택자 조합을 :is()로 묶어 간결하게 쓰고, 명시도가 0인 :where()로 나중에 쉽게 덮어쓸 수 있는 기본 스타일을 만드는 방법입니다.",
+    "file": "2026-10-25-css-is-where-selectors.md"
   }
 ]
