@@ -257,5 +257,12 @@
     "date": "2026-10-26",
     "summary": "기준 색상 하나만 두고 color-mix()로 어둡게/밝게/반투명 변형을 계산해, 호버 색상이나 배지 배경을 따로 정의하지 않고 만드는 방법입니다.",
     "file": "2026-10-26-css-color-mix.md"
+  },
+  {
+    "slug": "drag-and-drop-api",
+    "title": "HTML5 Drag and Drop API로 순서 바꾸는 리스트 만들기",
+    "date": "2026-10-27",
+    "summary": "draggable 속성과 dragstart/dragover/drop 이벤트만으로 라이브러리 없이 드래그 앤 드롭 리스트를 만들고, 터치·키보드 접근성 한계를 정리합니다.",
+    "file": "2026-10-27-drag-and-drop-api.md"
   }
 ]
