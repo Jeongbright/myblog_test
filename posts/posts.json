@@ -271,5 +271,12 @@
     "date": "2026-10-28",
     "summary": "@layer로 CSS 레이어 순서를 선언해 선택자 명시도 싸움 없이 스타일 우선순위를 관리하고, 서드파티 CSS를 안전하게 덮어쓰는 방법입니다.",
     "file": "2026-10-28-css-cascade-layers.md"
+  },
+  {
+    "slug": "responsive-images-srcset",
+    "title": "img srcset와 sizes로 화면에 맞는 이미지 제공하기",
+    "date": "2026-10-29",
+    "summary": "srcset과 sizes 속성으로 브라우저가 뷰포트와 화면 밀도에 맞는 이미지를 스스로 고르게 하는 방법과 picture와의 차이를 정리합니다.",
+    "file": "2026-10-29-responsive-images-srcset.md"
   }
 ]
