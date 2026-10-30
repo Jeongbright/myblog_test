@@ -278,5 +278,12 @@
     "date": "2026-10-29",
     "summary": "srcset과 sizes 속성으로 브라우저가 뷰포트와 화면 밀도에 맞는 이미지를 스스로 고르게 하는 방법과 picture와의 차이를 정리합니다.",
     "file": "2026-10-29-responsive-images-srcset.md"
+  },
+  {
+    "slug": "css-logical-properties",
+    "title": "CSS 논리적 속성(margin-inline, padding-block)으로 다국어 레이아웃 대응하기",
+    "date": "2026-10-30",
+    "summary": "margin-inline, padding-block 같은 CSS 논리적 속성으로 RTL 언어나 세로쓰기에서도 깨지지 않는 레이아웃을 만드는 방법을 정리합니다.",
+    "file": "2026-10-30-css-logical-properties.md"
   }
 ]
