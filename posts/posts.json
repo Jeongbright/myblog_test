@@ -285,5 +285,12 @@
     "date": "2026-10-30",
     "summary": "margin-inline, padding-block 같은 CSS 논리적 속성으로 RTL 언어나 세로쓰기에서도 깨지지 않는 레이아웃을 만드는 방법을 정리합니다.",
     "file": "2026-10-30-css-logical-properties.md"
+  },
+  {
+    "slug": "request-animation-frame",
+    "title": "requestAnimationFrame으로 부드러운 애니메이션과 스크롤 처리 최적화하기",
+    "date": "2026-10-31",
+    "summary": "setInterval 대신 requestAnimationFrame으로 화면 주사율에 맞춰 애니메이션을 실행하고, 스크롤 이벤트에서 ticking 플래그로 리페인트 주기에 맞춰 쓰로틀링하는 방법입니다.",
+    "file": "2026-10-31-request-animation-frame.md"
   }
 ]
