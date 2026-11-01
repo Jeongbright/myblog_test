@@ -292,5 +292,12 @@
     "date": "2026-10-31",
     "summary": "setInterval 대신 requestAnimationFrame으로 화면 주사율에 맞춰 애니메이션을 실행하고, 스크롤 이벤트에서 ticking 플래그로 리페인트 주기에 맞춰 쓰로틀링하는 방법입니다.",
     "file": "2026-10-31-request-animation-frame.md"
+  },
+  {
+    "slug": "viewport-units-dvh",
+    "title": "모바일 100vh 버그, dvh/svh/lvh로 해결하기",
+    "date": "2026-11-01",
+    "summary": "모바일 브라우저 주소창 때문에 생기는 100vh 레이아웃 버그를, 동적 뷰포트 단위 dvh/svh/lvh로 해결하는 방법입니다.",
+    "file": "2026-11-01-viewport-units-dvh.md"
   }
 ]
