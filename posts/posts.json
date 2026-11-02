@@ -299,5 +299,12 @@
     "date": "2026-11-01",
     "summary": "모바일 브라우저 주소창 때문에 생기는 100vh 레이아웃 버그를, 동적 뷰포트 단위 dvh/svh/lvh로 해결하는 방법입니다.",
     "file": "2026-11-01-viewport-units-dvh.md"
+  },
+  {
+    "slug": "css-overscroll-behavior",
+    "title": "CSS overscroll-behavior로 스크롤 체이닝과 당겨서 새로고침 막기",
+    "date": "2026-11-02",
+    "summary": "모달 안 스크롤이 뒤 페이지로 전파되는 스크롤 체이닝과 모바일 당겨서 새로고침을, overscroll-behavior로 JS 없이 막는 방법입니다.",
+    "file": "2026-11-02-css-overscroll-behavior.md"
   }
 ]
