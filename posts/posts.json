@@ -306,5 +306,12 @@
     "date": "2026-11-02",
     "summary": "모달 안 스크롤이 뒤 페이지로 전파되는 스크롤 체이닝과 모바일 당겨서 새로고침을, overscroll-behavior로 JS 없이 막는 방법입니다.",
     "file": "2026-11-02-css-overscroll-behavior.md"
+  },
+  {
+    "slug": "css-native-nesting",
+    "title": "전처리기 없이 CSS 네이티브 중첩(Nesting) 사용하기",
+    "date": "2026-11-03",
+    "summary": "Sass 같은 전처리기 없이 순수 CSS만으로 선택자, 의사 클래스, 미디어 쿼리를 중첩해서 쓰는 네이티브 CSS Nesting 문법을 정리합니다.",
+    "file": "2026-11-03-css-native-nesting.md"
   }
 ]
