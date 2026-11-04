@@ -313,5 +313,12 @@
     "date": "2026-11-03",
     "summary": "Sass 같은 전처리기 없이 순수 CSS만으로 선택자, 의사 클래스, 미디어 쿼리를 중첩해서 쓰는 네이티브 CSS Nesting 문법을 정리합니다.",
     "file": "2026-11-03-css-native-nesting.md"
+  },
+  {
+    "slug": "web-worker-heavy-computation",
+    "title": "Web Worker로 무거운 연산을 메인 스레드에서 분리하기",
+    "date": "2026-11-04",
+    "summary": "큰 배열 정렬 같은 무거운 연산이 메인 스레드를 막아 화면이 멈추는 문제를, Web Worker로 별도 스레드에 분리해 해결하는 방법입니다.",
+    "file": "2026-11-04-web-worker-heavy-computation.md"
   }
 ]
