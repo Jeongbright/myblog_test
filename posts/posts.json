@@ -327,5 +327,12 @@
     "date": "2026-11-05",
     "summary": "카드마다 내용 길이가 달라 줄이 어긋나는 문제를, subgrid로 부모 그리드의 행/열 트랙을 그대로 물려받아 해결하는 방법입니다.",
     "file": "2026-11-05-css-subgrid.md"
+  },
+  {
+    "slug": "screen-wake-lock-api",
+    "title": "Screen Wake Lock API로 화면 꺼짐 방지하기",
+    "date": "2026-11-06",
+    "summary": "navigator.wakeLock.request('screen')으로 화면이 자동으로 꺼지는 것을 막고, 탭이 백그라운드로 갔다 돌아올 때 wake lock을 다시 요청하는 방법입니다.",
+    "file": "2026-11-06-screen-wake-lock-api.md"
   }
 ]
