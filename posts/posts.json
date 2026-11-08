@@ -341,5 +341,12 @@
     "date": "2026-11-07",
     "summary": "문자열 innerHTML 대신 <template>과 content.cloneNode(true)로 리스트 UI를 XSS 걱정 없이 빠르게 렌더링하는 방법입니다.",
     "file": "2026-11-07-html-template-element.md"
+  },
+  {
+    "slug": "constraint-validation-api",
+    "title": "Constraint Validation API로 폼 에러 메시지 커스터마이징하기",
+    "date": "2026-11-08",
+    "summary": "setCustomValidity()와 reportValidity()로 네이티브 폼 유효성 검사 말풍선은 그대로 쓰면서 에러 메시지만 원하는 대로 바꾸는 방법입니다.",
+    "file": "2026-11-08-constraint-validation-api.md"
   }
 ]
