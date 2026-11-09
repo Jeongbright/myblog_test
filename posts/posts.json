@@ -348,5 +348,12 @@
     "date": "2026-11-08",
     "summary": "setCustomValidity()와 reportValidity()로 네이티브 폼 유효성 검사 말풍선은 그대로 쓰면서 에러 메시지만 원하는 대로 바꾸는 방법입니다.",
     "file": "2026-11-08-constraint-validation-api.md"
+  },
+  {
+    "slug": "passive-event-listeners",
+    "title": "addEventListener의 passive 옵션으로 스크롤 버벅임 줄이기",
+    "date": "2026-11-09",
+    "summary": "touchstart/wheel 리스너에 passive: true를 지정해 브라우저가 핸들러 실행을 기다리지 않고 스크롤을 바로 진행하게 만드는 방법입니다.",
+    "file": "2026-11-09-passive-event-listeners.md"
   }
 ]
