@@ -355,5 +355,12 @@
     "date": "2026-11-09",
     "summary": "touchstart/wheel 리스너에 passive: true를 지정해 브라우저가 핸들러 실행을 기다리지 않고 스크롤을 바로 진행하게 만드는 방법입니다.",
     "file": "2026-11-09-passive-event-listeners.md"
+  },
+  {
+    "slug": "css-accent-color",
+    "title": "CSS accent-color로 체크박스·라디오 색상 쉽게 바꾸기",
+    "date": "2026-11-10",
+    "summary": "appearance: none으로 폼 컨트롤을 직접 다시 그리지 않고, accent-color 속성으로 체크박스·라디오·range의 강조 색상만 바꾸는 방법입니다.",
+    "file": "2026-11-10-css-accent-color.md"
   }
 ]
