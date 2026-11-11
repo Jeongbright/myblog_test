@@ -362,5 +362,12 @@
     "date": "2026-11-10",
     "summary": "appearance: none으로 폼 컨트롤을 직접 다시 그리지 않고, accent-color 속성으로 체크박스·라디오·range의 강조 색상만 바꾸는 방법입니다.",
     "file": "2026-11-10-css-accent-color.md"
+  },
+  {
+    "slug": "intersection-observer-visibility",
+    "title": "IntersectionObserver로 스크롤 이벤트 없이 요소 노출 감지하기",
+    "date": "2026-11-11",
+    "summary": "scroll 이벤트에서 getBoundingClientRect를 계산하는 대신 IntersectionObserver로 비동기로 교차 여부를 감지해 무한 스크롤, 지연 로딩, 페이드인 애니메이션을 가볍게 구현하는 방법입니다.",
+    "file": "2026-11-11-intersection-observer-visibility.md"
   }
 ]
