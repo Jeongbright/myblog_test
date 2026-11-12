@@ -369,5 +369,12 @@
     "date": "2026-11-11",
     "summary": "scroll 이벤트에서 getBoundingClientRect를 계산하는 대신 IntersectionObserver로 비동기로 교차 여부를 감지해 무한 스크롤, 지연 로딩, 페이드인 애니메이션을 가볍게 구현하는 방법입니다.",
     "file": "2026-11-11-intersection-observer-visibility.md"
+  },
+  {
+    "slug": "storage-event-cross-tab-sync",
+    "title": "storage 이벤트로 다른 탭 간 localStorage 변경 동기화하기",
+    "date": "2026-11-12",
+    "summary": "브라우저가 기본 제공하는 storage 이벤트로 폴링 없이 다른 탭의 localStorage 변경을 감지해 테마나 로그인 상태를 동기화하는 방법입니다.",
+    "file": "2026-11-12-storage-event-cross-tab-sync.md"
   }
 ]
