@@ -390,5 +390,12 @@
     "date": "2026-11-14",
     "summary": "scroll 이벤트와 requestAnimationFrame 대신 animation-timeline: scroll()/view()로 스크롤 진행률에 애니메이션을 직접 연결해 진행 바나 패럴랙스 효과를 JS 없이 구현하는 방법입니다.",
     "file": "2026-11-14-css-scroll-driven-animations.md"
+  },
+  {
+    "slug": "css-light-dark-function",
+    "title": "CSS light-dark() 함수로 다크 모드 변수 중복 줄이기",
+    "date": "2026-11-15",
+    "summary": "light-dark() 함수와 color-scheme 속성으로 라이트·다크 모드 색상 변수를 :root와 미디어 쿼리에 중복 선언하지 않고 한 줄로 관리하는 방법입니다.",
+    "file": "2026-11-15-css-light-dark-function.md"
   }
 ]
