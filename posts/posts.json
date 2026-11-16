@@ -397,5 +397,12 @@
     "date": "2026-11-15",
     "summary": "light-dark() 함수와 color-scheme 속성으로 라이트·다크 모드 색상 변수를 :root와 미디어 쿼리에 중복 선언하지 않고 한 줄로 관리하는 방법입니다.",
     "file": "2026-11-15-css-light-dark-function.md"
+  },
+  {
+    "slug": "custom-elements-web-components",
+    "title": "커스텀 엘리먼트(Custom Elements)로 프레임워크 없이 재사용 컴포넌트 만들기",
+    "date": "2026-11-16",
+    "summary": "HTMLElement를 상속하고 customElements.define()으로 등록해, connectedCallback과 attributeChangedCallback만으로 상태에 반응하는 작은 컴포넌트를 프레임워크 없이 만드는 방법입니다.",
+    "file": "2026-11-16-custom-elements-web-components.md"
   }
 ]
