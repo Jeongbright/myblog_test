@@ -404,5 +404,12 @@
     "date": "2026-11-16",
     "summary": "HTMLElement를 상속하고 customElements.define()으로 등록해, connectedCallback과 attributeChangedCallback만으로 상태에 반응하는 작은 컴포넌트를 프레임워크 없이 만드는 방법입니다.",
     "file": "2026-11-16-custom-elements-web-components.md"
+  },
+  {
+    "slug": "performance-user-timing-api",
+    "title": "Performance API의 User Timing으로 커스텀 성능 구간 측정하기",
+    "date": "2026-11-17",
+    "summary": "performance.mark()와 performance.measure()로 원하는 구간의 실행 시간을 측정하고, PerformanceObserver와 크롬 DevTools 타임라인에서 확인하는 방법입니다.",
+    "file": "2026-11-17-performance-user-timing-api.md"
   }
 ]
