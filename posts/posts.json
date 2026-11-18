@@ -411,5 +411,12 @@
     "date": "2026-11-17",
     "summary": "performance.mark()와 performance.measure()로 원하는 구간의 실행 시간을 측정하고, PerformanceObserver와 크롬 DevTools 타임라인에서 확인하는 방법입니다.",
     "file": "2026-11-17-performance-user-timing-api.md"
+  },
+  {
+    "slug": "css-focus-within",
+    "title": "CSS :focus-within으로 자식이 포커스됐을 때 부모 스타일링하기",
+    "date": "2026-11-18",
+    "summary": "JS로 focus/blur 이벤트를 듣지 않고도 :focus-within으로 자식 요소가 포커스될 때 부모 컨테이너를 강조하는 방법과 :focus-visible과의 차이를 정리합니다.",
+    "file": "2026-11-18-css-focus-within.md"
   }
 ]
