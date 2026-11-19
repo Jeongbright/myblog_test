@@ -418,5 +418,12 @@
     "date": "2026-11-18",
     "summary": "JS로 focus/blur 이벤트를 듣지 않고도 :focus-within으로 자식 요소가 포커스될 때 부모 컨테이너를 강조하는 방법과 :focus-visible과의 차이를 정리합니다.",
     "file": "2026-11-18-css-focus-within.md"
+  },
+  {
+    "slug": "formdata-api",
+    "title": "FormData로 폼 입력값 한 번에 모아서 전송하기",
+    "date": "2026-11-19",
+    "summary": "입력 필드를 하나씩 꺼내는 대신 FormData로 <form> 전체 값(파일 포함)을 한 번에 모아 fetch로 전송하는 방법입니다.",
+    "file": "2026-11-19-formdata-api.md"
   }
 ]
