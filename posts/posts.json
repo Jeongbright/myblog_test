@@ -425,5 +425,12 @@
     "date": "2026-11-19",
     "summary": "입력 필드를 하나씩 꺼내는 대신 FormData로 <form> 전체 값(파일 포함)을 한 번에 모아 fetch로 전송하는 방법입니다.",
     "file": "2026-11-19-formdata-api.md"
+  },
+  {
+    "slug": "css-env-safe-area-inset",
+    "title": "CSS env()로 노치·홈 인디케이터 피해서 콘텐츠 배치하기",
+    "date": "2026-11-20",
+    "summary": "viewport-fit=cover와 env(safe-area-inset-*)로 노치나 홈 인디케이터가 있는 기기에서도 버튼이나 고정 바가 잘리지 않게 안전 영역만큼 여백을 자동으로 확보하는 방법입니다.",
+    "file": "2026-11-20-css-env-safe-area-inset.md"
   }
 ]
