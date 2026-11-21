@@ -432,5 +432,12 @@
     "date": "2026-11-20",
     "summary": "viewport-fit=cover와 env(safe-area-inset-*)로 노치나 홈 인디케이터가 있는 기기에서도 버튼이나 고정 바가 잘리지 않게 안전 영역만큼 여백을 자동으로 확보하는 방법입니다.",
     "file": "2026-11-20-css-env-safe-area-inset.md"
+  },
+  {
+    "slug": "css-scrollbar-gutter",
+    "title": "CSS scrollbar-gutter로 스크롤바 때문에 생기는 레이아웃 흔들림 막기",
+    "date": "2026-11-21",
+    "summary": "scrollbar-gutter: stable로 스크롤바가 생기고 사라질 때마다 콘텐츠 너비가 바뀌는 레이아웃 흔들림을 막는 방법과 both-edges 옵션을 정리합니다.",
+    "file": "2026-11-21-css-scrollbar-gutter.md"
   }
 ]
