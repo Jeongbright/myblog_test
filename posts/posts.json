@@ -439,5 +439,12 @@
     "date": "2026-11-21",
     "summary": "scrollbar-gutter: stable로 스크롤바가 생기고 사라질 때마다 콘텐츠 너비가 바뀌는 레이아웃 흔들림을 막는 방법과 both-edges 옵션을 정리합니다.",
     "file": "2026-11-21-css-scrollbar-gutter.md"
+  },
+  {
+    "slug": "css-position-sticky",
+    "title": "CSS position: sticky로 스크롤 따라붙는 헤더·사이드바 만들기",
+    "date": "2026-11-22",
+    "summary": "position: sticky와 top 값만으로 스크롤 이벤트 없이 테이블 헤더나 사이드바를 고정시키고, 부모 높이·overflow 때문에 동작하지 않는 흔한 함정을 정리합니다.",
+    "file": "2026-11-22-css-position-sticky.md"
   }
 ]
