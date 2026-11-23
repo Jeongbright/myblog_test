@@ -446,5 +446,12 @@
     "date": "2026-11-22",
     "summary": "position: sticky와 top 값만으로 스크롤 이벤트 없이 테이블 헤더나 사이드바를 고정시키고, 부모 높이·overflow 때문에 동작하지 않는 흔한 함정을 정리합니다.",
     "file": "2026-11-22-css-position-sticky.md"
+  },
+  {
+    "slug": "fetchpriority-attribute",
+    "title": "fetchpriority 속성으로 핵심 리소스 우선순위 직접 지정하기",
+    "date": "2026-11-23",
+    "summary": "fetchpriority=\"high\"/\"low\" 속성으로 브라우저가 자동 추측하는 리소스 로딩 우선순위를 직접 보정해, LCP 이미지는 먼저 받고 화면 밖 이미지는 뒤로 미루는 방법입니다.",
+    "file": "2026-11-23-fetchpriority-attribute.md"
   }
 ]
