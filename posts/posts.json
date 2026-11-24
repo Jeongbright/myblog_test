@@ -453,5 +453,12 @@
     "date": "2026-11-23",
     "summary": "fetchpriority=\"high\"/\"low\" 속성으로 브라우저가 자동 추측하는 리소스 로딩 우선순위를 직접 보정해, LCP 이미지는 먼저 받고 화면 밖 이미지는 뒤로 미루는 방법입니다.",
     "file": "2026-11-23-fetchpriority-attribute.md"
+  },
+  {
+    "slug": "fullscreen-api",
+    "title": "Fullscreen API로 전체화면 모드 구현하기",
+    "date": "2026-11-24",
+    "summary": "requestFullscreen()과 fullscreenchange 이벤트로 비디오 플레이어나 갤러리에 브라우저 UI까지 가려지는 진짜 전체화면 모드를 구현하는 방법입니다.",
+    "file": "2026-11-24-fullscreen-api.md"
   }
 ]
