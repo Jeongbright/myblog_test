@@ -460,5 +460,12 @@
     "date": "2026-11-24",
     "summary": "requestFullscreen()과 fullscreenchange 이벤트로 비디오 플레이어나 갤러리에 브라우저 UI까지 가려지는 진짜 전체화면 모드를 구현하는 방법입니다.",
     "file": "2026-11-24-fullscreen-api.md"
+  },
+  {
+    "slug": "file-system-access-api",
+    "title": "File System Access API로 브라우저에서 로컬 파일 직접 열고 저장하기",
+    "date": "2026-11-25",
+    "summary": "showOpenFilePicker()와 FileSystemFileHandle로 다운로드 폴더가 아니라 사용자가 고른 바로 그 파일에 직접 읽고 쓰는 방법과 미지원 브라우저 폴백을 정리합니다.",
+    "file": "2026-11-25-file-system-access-api.md"
   }
 ]
