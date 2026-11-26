@@ -467,5 +467,12 @@
     "date": "2026-11-25",
     "summary": "showOpenFilePicker()와 FileSystemFileHandle로 다운로드 폴더가 아니라 사용자가 고른 바로 그 파일에 직접 읽고 쓰는 방법과 미지원 브라우저 폴백을 정리합니다.",
     "file": "2026-11-25-file-system-access-api.md"
+  },
+  {
+    "slug": "array-immutable-methods",
+    "title": "toSorted·toReversed·with()로 원본 배열 건드리지 않고 다루기",
+    "date": "2026-11-26",
+    "summary": "ES2023에 추가된 toSorted(), toReversed(), with() 등 불변 배열 메서드로 스프레드 복사 없이 원본을 보존하며 배열을 다루는 방법입니다.",
+    "file": "2026-11-26-array-immutable-methods.md"
   }
 ]
