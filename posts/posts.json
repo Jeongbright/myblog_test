@@ -474,5 +474,12 @@
     "date": "2026-11-26",
     "summary": "ES2023에 추가된 toSorted(), toReversed(), with() 등 불변 배열 메서드로 스프레드 복사 없이 원본을 보존하며 배열을 다루는 방법입니다.",
     "file": "2026-11-26-array-immutable-methods.md"
+  },
+  {
+    "slug": "history-api-pushstate",
+    "title": "History API로 새로고침 없이 주소창 URL 바꾸기 (pushState/replaceState)",
+    "date": "2026-11-27",
+    "summary": "history.pushState()와 replaceState()로 전체 리로드 없이 주소창 URL만 바꾸고, popstate 이벤트로 뒤로가기/앞으로가기 시 화면을 복원하는 방법입니다.",
+    "file": "2026-11-27-history-api-pushstate.md"
   }
 ]
