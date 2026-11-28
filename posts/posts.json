@@ -481,5 +481,12 @@
     "date": "2026-11-27",
     "summary": "history.pushState()와 replaceState()로 전체 리로드 없이 주소창 URL만 바꾸고, popstate 이벤트로 뒤로가기/앞으로가기 시 화면을 복원하는 방법입니다.",
     "file": "2026-11-27-history-api-pushstate.md"
+  },
+  {
+    "slug": "css-object-fit",
+    "title": "CSS object-fit과 object-position으로 이미지 썸네일 비율 맞추기",
+    "date": "2026-11-28",
+    "summary": "object-fit: cover/contain과 object-position으로 비율이 제각각인 이미지를 고정 크기 박스에 CSS만으로 깔끔하게 채우는 방법입니다.",
+    "file": "2026-11-28-css-object-fit.md"
   }
 ]
